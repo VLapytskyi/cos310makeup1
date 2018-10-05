@@ -1,0 +1,5 @@
+date > .new_$1
+cat $1 >> .new_$1
+rm $1
+mv .new_$1 $1
+
